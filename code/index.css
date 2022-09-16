@@ -8,7 +8,7 @@
     border-bottom: 1px solid gray;
 }
 
-#menu a {
+#menu .menu-item {
     height: 10vh;
     margin-bottom: 15px;
     align-items: flex-end;
@@ -26,4 +26,5 @@
     height: 2px;
     background-color: gray;
     bottom: 0;
+    transition: left 0.5s ease;
 }
