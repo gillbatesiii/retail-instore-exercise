@@ -6,6 +6,7 @@
     justify-content: space-between;
     position: relative;
     border-bottom: 1px solid gray;
+    padding: 0 100px;
 }
 
 #menu .menu-item {
