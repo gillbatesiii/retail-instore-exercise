@@ -1,0 +1,25 @@
+#menu {
+    text-align: center;
+    height: 10vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#menu a {
+    font-size: 12px;
+    vertical-align: text-bottom;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#indicator {
+    display: block;
+    position: absolute;
+    height: 20px;
+    background-color: gray;
+    width: 20px;
+    bottom: 0;
+}
