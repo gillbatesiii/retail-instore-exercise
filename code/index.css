@@ -9,6 +9,7 @@
 }
 
 #menu .menu-item {
+    color: #909091;
     height: 10vh;
     margin-bottom: 15px;
     align-items: flex-end;
@@ -20,11 +21,19 @@
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+#menu .menu-item:hover {
+    color: #3380c4;
+}
+
+#menu .menu-item.active {
+    color: #060607;
+}
+
 #indicator {
     display: block;
     position: absolute;
     height: 2px;
-    background-color: gray;
+    background-color: #060607;
     bottom: 0;
     transition: left 0.5s ease;
 }
