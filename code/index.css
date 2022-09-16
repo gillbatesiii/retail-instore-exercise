@@ -1,8 +1,6 @@
 #menu {
     margin: 0 auto;
-    text-align: center;
     width: 80%;
-    height: 10vh;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -11,12 +9,14 @@
 }
 
 #menu a {
+    height: 10vh;
     margin-bottom: 15px;
-    align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
     font-size: 12px;
     vertical-align: text-bottom;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
