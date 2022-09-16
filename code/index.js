@@ -1,6 +1,10 @@
 const fetchCityData = async () => {
-    let response = await fetch('./navigation.json');
-    return await response.json();
+    try {
+        let response = await fetch('./navigation.json');
+        return await response.json();
+    } catch (error) {
+        console.error(error);
+    }
 }
 
 const main = async () => {
